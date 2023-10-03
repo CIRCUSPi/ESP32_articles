@@ -7,7 +7,7 @@
 
 Adafruit_SHT31 sht3x = Adafruit_SHT31();
 
-// 初始化電子紙的流程
+// 初始化電子紙
 void InitEpdSeq () {
   EPD_1in9_lut_5S();
 	EPD_1in9_Write_Screen(DSPNUM_1in9_off);
